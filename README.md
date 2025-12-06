@@ -3,6 +3,28 @@
 ## 1. Overview
 Developed an interactive Power BI dashboard to analyze high-volume, unstructured UPI transaction data. The project's core challenge was engineering a reliable pipeline to clean and categorize messy merchant/transaction descriptions into structured, analytical formats.
 
+---
+
+## 🖼️ Transaction Trends and Volume Analysis
+This primary visual section captures the macro trends in UPI adoption. It tracks the growth of both **transaction volume** (count) and **transaction value** (total currency exchanged) over defined time periods, essential for understanding market saturation and growth acceleration.
+
+****
+![UPI Line and Column Chart Visual](upi_line&column_chart_visual.png)
+
+---
+
+## 2. Comparative Analysis and Segmentation Matrix
+The core of this analysis is breaking down aggregate performance into actionable segments. The matrix visual provides a detailed, sortable comparison of key metrics (e.g., Average Transaction Value, Volume Share) across critical dimensions, such as:
+
+* **Geographic Region (State/City)**
+* **Payment Type (P2P vs. P2M)**
+* **User Demographics/Age Group**
+
+****
+![UPI Matrix Visual](upi_matrix_visual.png)
+
+---
+
 ### 🎯 Goal
 To provide clear insights into transaction volume, value trends, P2P (Person-to-Person) vs. P2M (Person-to-Merchant) split, and peak platform usage times, allowing for optimization of platform performance and marketing.
 
